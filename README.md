@@ -6,7 +6,12 @@ API of a betting engine to allow users to create open bets and automatically mat
 
 ## Getting Started
 
-1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
+1. Make sure you have [NodeJS](https://nodejs.org/) 14 and [npm](https://www.npmjs.com/) installed. If you use [NVM](https://github.com/nvm-sh/nvm), you can do:
+
+   ```bash
+   nvm use
+   ```
+
 2. Run redis and postgres db with docker compose:
 
    ```bash
