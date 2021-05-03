@@ -38,6 +38,13 @@ API of a betting engine to allow users to create open bets and automatically mat
    npm run start:local
    ```
 
+## Run with Docker
+
+```bash
+   docker build -t wagr:local .
+   docker run -p 8080:8080 -d -e NODE_ENV=local --name wagrLocal wagr:local
+```
+
 ## Docs
 
 Start the app and go to `http://localhost:8080/docs`
