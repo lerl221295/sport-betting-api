@@ -10,7 +10,7 @@ API of a betting engine to allow users to create open bets and automatically mat
 2. Run redis and postgres db with docker compose:
 
    ```bash
-   docker-compose up
+   docker-compose up -d
    ```
 
 3. Create your local config based on the example
@@ -36,6 +36,12 @@ API of a betting engine to allow users to create open bets and automatically mat
 
    ```bash
    npm run start:local
+   ```
+
+7. Stop the db gracefully
+
+   ```bash
+   docker-compose down
    ```
 
 ## Run with Docker
